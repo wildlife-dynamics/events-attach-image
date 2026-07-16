@@ -1,15 +1,17 @@
-name:  # Title Case, e.g. "My Ecoscope Workflow Template"
+name: Event Attach Images
 
 # at least one author is required
 author:
-  - name: ""
-    organization: ""
-    email: ""
+  - name: Tevin Temu
+    organization: Wildlife Dynamics
+    email: tevin@wildlifedynamics.com
+  - name: Zakariya Hussein
+    organization: Wildlife Dynamics
+    email: zakariya@wildlifedynamics.com
 
-description: # A short description
+description: Matches a folder of images to EarthRanger events by timestamp and uploads them as file attachments, surfacing matched and unmatched images on an interactive dashboard.
 
-# todo: add example
-theory: "" # optional
+theory: "Images are matched to events by comparing EXIF capture timestamps against each event's time within a configurable window. For ER Mobile events, the window is extended from event_time - window to created_at + window to account for delays between an incident occurring and the event being submitted from the field." # optional
 
 # todo: add example
 output_comment: "" # optional
